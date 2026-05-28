@@ -47,7 +47,7 @@ export default function Footer({ data, navbarLinks }) {
               />
             </Link>
             
-            <p className="text-xs text-brand-slateLight leading-relaxed max-w-sm font-sans">
+            <p className="text-xs text-brand-slateLight leading-relaxed max-w-xs font-sans">
               FollowProperty is a professional real-estate advisory and prop-tech firm. We bring absolute clarity, research, and due diligence to property buyers and developers in India.
             </p>
             
