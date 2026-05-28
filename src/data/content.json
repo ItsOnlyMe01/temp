@@ -1,0 +1,309 @@
+{
+  "contactDetails": {
+    "email": "ifollowproperty@gmail.com",
+    "phone": "+918796508866",
+    "address": "IT Spaze Park, Sector 49, Gurgaon, India"
+  },
+  "socialLinks": {
+    "instagram": "https://www.instagram.com/ifollowproperty",
+    "facebook": "https://www.facebook.com/share/17cPZSRPiS/",
+    "linkedin": "https://www.linkedin.com/company/followproperty",
+    "youtube": "https://www.youtube.com/@followproperty",
+    "twitter": "https://twitter.com/followproperty"
+  },
+  "navbar": {
+    "logo": "FollowProperty",
+    "links": [
+      "About Us",
+      "Services",
+      "Products",
+      "Team",
+      "FAQ",
+      "Press Release",
+      "Careers",
+      "Business Owner",
+      "Locate Us",
+      "Contact Us"
+    ],
+    "ctaText": "Advisory Desk"
+  },
+  "hero": {
+    "badge": "Real Estate Advisory & Prop-Tech Infrastructure Desk",
+    "title": "Real Estate Advisory Built for Modern India",
+    "subtitle": "We combine deep analytical research, land portfolio due diligence, and institutional-grade property tracking to bring absolute transparency to Gurgaon and Indian real estate.",
+    "cta": "Consult with our Advisory Desk",
+    "secondaryCta": "Explore Services",
+    "securityText": "Assisting family offices, buyers, and enterprises with total confidentiality"
+  },
+  "about": {
+    "badge": "THE COMPANY",
+    "title": "Simplifying real estate complexity through technology and institutional research.",
+    "subtitle": "FollowProperty is an independent prop-tech intelligence and real estate advisory firm. We build tracking infrastructure, research indexes, and consultative desks to help families, buyers, and developers navigate transactions with trust and clarity.",
+    "pillars": [
+      {
+        "title": "Institutional Research",
+        "desc": "We audit municipal RERA filings, property circular rates, and developer records to deliver simplified, objective compliance intelligence."
+      },
+      {
+        "title": "Consultative Advisory",
+        "desc": "Our advisory team provides tailormade guidance for buyers, family offices, and developers throughout their real estate journey."
+      },
+      {
+        "title": "Transaction Compliance",
+        "desc": "We verify title records, ownership history, and municipal approvals to ensure transaction safety and mitigate transaction risk."
+      }
+    ],
+    "quote": "“Real estate transactions are highly complex and carry deep lifetime significance. We build tools and advisory systems to make this journey transparent, logical, and safe for everyone.”",
+    "founder": {
+      "initials": "FD",
+      "name": "F Dsouza",
+      "role": "Founder, FollowProperty"
+    }
+  },
+  "services": {
+    "badge": "OUR SERVICES",
+    "title": "Are you looking to buy an apartment?",
+    "subtitle": "We provide strategic buyer guidance, developer channel partnerships, municipal record review, and custom consulting to secure your acquisitions.",
+    "ctaText": "Share Your Requirements",
+    "items": [
+      {
+        "id": "discovery",
+        "title": "Portfolio Guidance",
+        "desc": "Discover premium residential, commercial, and plotting options backed by thorough circle rate analysis and pricing benchmarks."
+      },
+      {
+        "id": "assistance",
+        "title": "Channel Partnerships",
+        "desc": "Collaborating with trusted builders (like BPTP for Downtown 66) to offer verified, high-yield commercial and residential inventory."
+      },
+      {
+        "id": "insights",
+        "title": "Buyer Assistance & Due Diligence",
+        "desc": "Navigate deed registrations, title search checkups, and municipal RERA filings with dedicated compliance support."
+      },
+      {
+        "id": "consultation",
+        "title": "Builder & Developer Alliances",
+        "desc": "Assisting land developers and channel partners with regulatory compliance tracking and market pricing feeds."
+      }
+    ]
+  },
+  "products": {
+    "badge": "OUR PRODUCTS",
+    "title": "Prop-Tech Infrastructure & Tools",
+    "subtitle": "FollowProperty.com is our proprietary property intelligence platform. We deploy specialized research tools to assist buyers, developers, and enterprises.",
+    "items": [
+      {
+        "id": "platform",
+        "badge": "Ecosystem Platform",
+        "title": "FollowProperty Intelligence Platform",
+        "status": "Coming Soon",
+        "desc": "A secure analytical system for monitoring localized circle rates, builder construction milestones, and title deed updates in near real-time.",
+        "features": [
+          "Project RERA Audit Feed",
+          "Circle-Rate & Valuation Maps",
+          "Developer Milestones Tracker",
+          "Institutional Compliance Index",
+          "Strategic Advisory Integration"
+        ],
+        "ctaText": "Join Waitlist"
+      }
+    ]
+  },
+  "business": {
+    "badge": "ARE YOU A BUSINESS OWNER",
+    "title": "Developer Alliances & Channel Partnerships",
+    "subtitle": "Access our verified property database, RERA compliance feeds, and marketing advisory desks to scale your project reach and institutional operations.",
+    "ctaText": "Inquire for Partnership",
+    "highlights": [
+      "Custom developer compliance audits",
+      "Channel partner inventory sharing",
+      "Institutional circle-rate API feeds",
+      "Dedicated B2B advisory desk"
+    ]
+  },
+  "faq": {
+    "badge": "KNOWLEDGE BASE",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about the FollowProperty real estate advisory network.",
+    "items": [
+      {
+        "id": "simplification",
+        "question": "What is the FollowProperty ecosystem?",
+        "answer": "FollowProperty is an independent prop-tech intelligence and advisory firm. We combine proprietary data software, independent municipal research, and veteran advisory support to clarify and secure real estate transactions."
+      },
+      {
+        "id": "audience",
+        "question": "Who does FollowProperty serve?",
+        "answer": "We serve individual property buyers, developers, family offices, and channel partners seeking unbiased data, construction tracking, and transaction safety checks."
+      },
+      {
+        "id": "availability",
+        "question": "Is FollowProperty a brokerage or agency?",
+        "answer": "We act as a prop-tech advisory and strategic channel partner. We collaborate with trusted developers (such as BPTP) to offer verified listings, while maintaining independent due diligence and analytics for our clients."
+      }
+    ]
+  },
+  "team": {
+    "badge": "TEAM & VISION",
+    "title": "Dedicated to Clarity",
+    "subtitle": "A team of researchers, software engineers, and domain analysts building high-trust real estate infrastructure for India.",
+    "stats": [
+      "10+ Team Members",
+      "Analytics Driven",
+      "Gurgaon Real Estate Focused"
+    ]
+  },
+  "leadForm": {
+    "waitlistBadge": "★ ADVISORY DESK",
+    "title": "Consult with Our Advisory Desk",
+    "subtitle": "Register your property requirements or developer alliance requests below. A partner from our Gurgaon desk will contact you.",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "e.g. Rahul",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "e.g. Sharma",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "demo@example.com",
+    "cityLabel": "City",
+    "cityPlaceholder": "e.g. Gurgaon",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "9876543210",
+    "alreadyOwnLabel": "Own Property in Gurgaon",
+    "buttonText": "Inquire with Advisory Desk",
+    "buttonLoadingText": "connecting to desk...",
+    "privacyText": "Your inquiries are protected under institutional privacy ledgers.",
+    "successTitle": "Registration Received!",
+    "successSubtitle": "Thank you for registering. An advisory partner will contact you shortly to review your requirements.",
+    "successCloseText": "Close Panel"
+  },
+  "marketCampaign": {
+    "badge": "Strong Market Response",
+    "closingSoonText": "ADVISORY REGISTRY ACTIVE",
+    "inauguralOffer": "INQUIRIES OPEN"
+  },
+  "watchlistSection": {
+    "title": "Set Your Search Parameters",
+    "subtitle": "Select your preferred BHK layout, budget range, and location to build a personalized property watchlist and track matches in real time.",
+    "ctaText": "Create My Watchlist",
+    "collapseText": "Close Setup Panel",
+    "successTitle": "Watchlist Created successfully!",
+    "successSubtitle": "Your property search filters are active. We are writing parameters to sessionStorage.",
+    "cities": [
+      "Gurgaon",
+      "Noida",
+      "Mumbai",
+      "Pune",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Delhi",
+      "Ahmedabad",
+      "Kolkata",
+      "Jaipur",
+      "Lucknow"
+    ],
+    "banks": [
+      "SBI",
+      "HDFC Bank",
+      "ICICI Bank",
+      "Axis Bank",
+      "Kotak Mahindra Bank",
+      "Bank of Baroda",
+      "Punjab National Bank",
+      "LIC Housing Finance",
+      "Bajaj Housing Finance",
+      "Other"
+    ],
+    "categories": [
+      {
+        "id": "residential",
+        "label": "Residential",
+        "icon": "Home",
+        "types": [
+          "1RK / Studio",
+          "1 BHK",
+          "1.5 BHK",
+          "2 BHK",
+          "2.5 BHK",
+          "3 BHK",
+          "3.5 BHK",
+          "4 BHK",
+          "5 BHK",
+          "Penthouse",
+          "Duplex"
+        ]
+      },
+      {
+        "id": "commercial",
+        "label": "Commercial",
+        "icon": "Briefcase",
+        "types": [
+          "Office Space",
+          "Shop / Retail",
+          "Showroom",
+          "Warehouse / Godown",
+          "F&B Space",
+          "Co-working Space"
+        ]
+      },
+      {
+        "id": "plots",
+        "label": "Plots",
+        "icon": "Layers",
+        "types": [
+          "Agricultural Plot",
+          "Residential Plot (Pakka)",
+          "Residential Plot (Kacha)",
+          "Gated Community Plot",
+          "SCO Plot",
+          "Industrial Plot"
+        ]
+      },
+      {
+        "id": "farmland",
+        "label": "Farmland & Plantations",
+        "icon": "TreePine",
+        "types": [
+          "Orchard",
+          "Tea Farm",
+          "Coffee Farm",
+          "Mango Farm",
+          "Coconut Farm",
+          "Rubber Farm",
+          "Banana Farm",
+          "Cashew Farm",
+          "Apple Farm",
+          "Aqua Industry (Fish)",
+          "Aqua Industry (Prawns)"
+        ]
+      },
+      {
+        "id": "built",
+        "label": "Built Properties",
+        "icon": "Building2",
+        "types": [
+          "Villa",
+          "Bungalow",
+          "Rowhouse",
+          "Townhouse",
+          "Apartment Building",
+          "Independent House"
+        ]
+      },
+      {
+        "id": "industrial",
+        "label": "Industrial Plots",
+        "icon": "Factory",
+        "types": [
+          "Light Industrial",
+          "Heavy Industrial",
+          "Electronics Cluster",
+          "Defence Cluster",
+          "Logistics & Warehousing",
+          "Govt Park",
+          "Private Industrial Park"
+        ]
+      }
+    ]
+  }
+}

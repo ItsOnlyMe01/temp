@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@300;400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Instrument Sans', 'DM Sans', system-ui, sans-serif;
+
+  --color-brand-bg: #FFFFFF;
+  --color-brand-bgAlt: #F8FAFC;
+  --color-brand-bgCard: #FFFFFF;
+  --color-brand-navy: #0F172A;
+  --color-brand-navyMid: #1E293B;
+  --color-brand-slate: #475569;
+  --color-brand-slateLight: #64748B;
+  --color-brand-border: rgba(15, 23, 42, 0.06);
+  --color-brand-borderMid: rgba(15, 23, 42, 0.1);
+  --color-brand-primary: #325FEC;
+  --color-brand-primaryLight: #518FFF;
+  --color-brand-primaryDark: #1E44C4;
+  --color-brand-primaryBg: rgba(50, 95, 236, 0.03);
+  --color-brand-primaryBorder: rgba(50, 95, 236, 0.1);
+  --color-brand-teal: #0284C7;
+  --color-brand-tealBg: rgba(2, 132, 199, 0.04);
+  --color-brand-tealBorder: rgba(2, 132, 199, 0.12);
+  --color-brand-emerald: #059669;
+  --color-brand-red: #DC2626;
+  --color-brand-redBg: rgba(220,38,38,0.06);
+
+  --shadow-brand: 0 2px 6px rgba(15,22,41,0.03), 0 8px 24px rgba(15,22,41,0.04);
+  --shadow-brand-md: 0 4px 12px rgba(15,22,41,0.04), 0 16px 40px rgba(15,22,41,0.06);
+  --shadow-brand-lg: 0 8px 24px rgba(15,22,41,0.05), 0 24px 64px rgba(15,22,41,0.08);
+  --shadow-brand-primary: 0 12px 36px rgba(50, 95, 236, 0.12), 0 4px 12px rgba(50, 95, 236, 0.08);
+
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-pulse-custom: pulse-custom 2s infinite;
+  --animate-fadeIn: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-float: float 3.5s ease-in-out infinite;
+  --animate-scaleIn: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes pulse-custom {
+    0%, 100% { opacity: 0.35; }
+    50% { opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.975) translateY(4px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+}
+
+:root {
+  --radius: 0.85rem;
+}
+
+/* Standard CSS classes to bypass Tailwind v4 compilation/caching issues in dev server */
+.bg-brand-gradient {
+  background: linear-gradient(135deg, #325FEC 0%, #518FFF 100%) !important;
+  color: #FFFFFF !important;
+}
+
+.bg-brand-gradient:hover {
+  background: linear-gradient(135deg, #1E44C4 0%, #325FEC 100%) !important;
+  color: #FFFFFF !important;
+}
+
+.bg-brand-primary {
+  background-color: #325FEC !important;
+}
+
+.text-brand-primary {
+  color: #325FEC !important;
+}
+
+.border-brand-primary {
+  border-color: #325FEC !important;
+}
+
+.bg-brand-primaryBg {
+  background-color: rgba(50, 95, 236, 0.03) !important;
+}
+
+.border-brand-primaryBorder {
+  border-color: rgba(50, 95, 236, 0.1) !important;
+}
+
+/* About Us Pillars Group Hover Utility */
+.group:hover .group-hover-gradient {
+  background: linear-gradient(135deg, #325FEC 0%, #518FFF 100%) !important;
+  color: #FFFFFF !important;
+}
+
+@utility bg-dot-mesh {
+  background-image: radial-gradient(rgba(15, 22, 41, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@utility transition-premium {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@utility glassmorphic {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(15, 22, 41, 0.04);
+}
+
+@utility glassmorphic-input {
+  background: #FFFFFF;
+  border: 1px solid rgba(15, 22, 41, 0.09);
+  color: #0F1629;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@utility glassmorphic-input-focus {
+  outline: none;
+  border-color: var(--color-brand-primary);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+@utility text-glow {
+  text-shadow: 0 2px 12px rgba(37, 99, 235, 0.12);
+}
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    color: #0F1629;
+    font-family: 'Instrument Sans', 'DM Sans', system-ui, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3 {
+    letter-spacing: -0.025em;
+  }
+
+  /* Custom high-end scrollbar matching warm cream/navy theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFFFFF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E5E5E0;
+    border-radius: 4px;
+    border: 2px solid #FFFFFF;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D1D1C7;
+  }
+}
